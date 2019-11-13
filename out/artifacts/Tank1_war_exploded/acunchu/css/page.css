@@ -1,0 +1,157 @@
+*{
+    padding: 0px;
+    margin:auto;
+}
+#out{
+    height:801px;
+    width:739px;
+    border-radius: 2px;
+    border: 1px solid rgb(221, 221, 221);
+}
+#out2{
+    margin-left:87px ;
+    margin-top:61px;
+    height:637px;
+    width:523px;
+}
+#b{
+    height: 37px;
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #555555;
+}
+.left{
+    margin-top:24px;
+    height:47px;
+    width: 64px;
+    float: left;
+    text-align: left;
+    line-height: 47px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #555555;
+}
+
+.center{
+    margin-top:24px;
+    height:47px;
+    width: 453px;
+    margin-left:3px ;
+    float: left;
+    line-height: 47px;
+}
+.demo{
+    margin-top:24px;
+    height:47px;
+    width: 449px;
+    margin-left:3px ;
+    float: left;
+    line-height: 47px;
+    border-radius: 2px;
+    border: 1px solid rgb(221, 221, 221);
+}
+
+.demo input{padding: 12px 18px 12px 12px;}
+.center>input{
+    width:447px;
+    height: 47px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #555555;
+}
+.center2{
+    margin-top:24px;
+    height:47px;
+    width: 223px;
+    margin-left:3px ;
+    float: left;
+    line-height: 47px;
+    border-radius: 2px;
+    border: 1px solid rgb(221, 221, 221);
+}
+.center3{
+    margin-top:24px;
+    height:47px;
+    width: 200px;
+    margin-left:3px ;
+    float: left;
+    line-height: 47px;
+    border-radius: 2px;
+    border: 1px solid rgb(221, 221, 221);
+}
+.center4{
+    margin-top:24px;
+    height:47px;
+    width: 17px;
+    margin-left:3px ;
+    float: left;
+    line-height: 47px;
+    border-radius: 2px;
+    border: 1px solid rgb(221, 221, 221);
+}
+.center5 {
+    margin-top: 24px;
+    height: 47px;
+    width: 223px;
+    margin-left: 3px;
+    float: left;
+    line-height: 47px;
+    border-radius: 2px;
+    border: 1px solid rgb(221, 221, 221);
+}
+.center2>input{
+    position: relative;
+    left:200px;
+}
+.month{
+    width: 15px;
+    height: 47px;
+    display: block;
+    float: right;
+}
+#blank{
+    height: 40px;
+}
+.save{
+    height: 47px;
+    width: 102px;
+    margin-top: 24px;
+    float:left;
+}
+input[type=submit]{
+    width:102px ;
+    height: 47px;
+    outline: none;
+    border-radius: 2px;
+    border: 1px solid rgb(221, 221, 221);
+}
+input[type=date]{
+    height: 43px;
+    line-height: 43px;
+    border:none;
+    position: relative;
+    top:-2px;
+
+}
+#sel2{
+    padding-left: 10rem;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    background:none;
+}
+#sel {
+    padding-left: 10rem;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: none;
+}

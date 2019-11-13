@@ -13,14 +13,7 @@ onload = function ()
     }
 
     var sel2 = document.getElementById ('sel2');//获取select下拉列表
-    for(var j = 1; j <=9; j++){
-        var option = document.createElement ('option');
-        option.value = "0"+j;
-        var txt = document.createTextNode (j);
-        option.appendChild (txt);
-        sel2.appendChild (option);
-    }
-    for(var j = 10; j <=12; j++){
+    for(var j = 1; j <=12; j++){
         var option = document.createElement ('option');
         option.value = j;
         var txt = document.createTextNode (j);

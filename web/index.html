@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>基本信息</title>
+    <link rel="stylesheet" href="css/cityselect.css">
+    <link rel="stylesheet" href="css/page.css">
+    <script type="text/javascript" src="js/cityselect.js"></script>
+    <script type="text/javascript" src="js/date.js"></script>
+</head>
+<body>
+    <form action="basic">
+        <div id="out">
+            <div id = "out2">
+            <div id="b">基本信息</div>
+                <div class="left">姓名</div>
+                <div class="center" id="name">
+                    <input name="name" value="" placeholder="  请输入你的姓名" type="text" >
+                </div>
+                <div class="left">生日</div>
+                <div class="center2" id="year1">
+                    <select id="sel" name="year"></select> 年
+                </div>
+                <div class="center2" id="month1">
+                    <select id="sel2" name="month"></select>月
+                </div>
+                <div class="left">性别</div>
+                <div class="center2">
+                    <input name="gender" value="1" placeholder="男" type="radio" checked="true" >
+                </div>
+                <div class="center2">
+                    <input name="gender" value="0" placeholder="女" type="radio" >
+                </div>
+                <div class="left">所在城市</div>
+                <div class="demo" id="city">
+                        <input type="text" class="cityinput" id="citySelect" placeholder="请输入目的地">
+                </div>
+                <script type="text/javascript">
+                    var test=new Vcity.CitySelector({input:'citySelect'});
+                </script>
+                <div id="blank"></div>
+                <div class="left">手机号码</div>
+                <div class="center" id="telephone">
+                    <input name="telephone" value="" placeholder="  请输入你的手机号" type="text" >
+                </div>
+                <div class="left">联系邮箱</div>
+                <div class="center" id="mailbox">
+                    <input name="mailbox" value="" placeholder="  请输入你的邮箱" type="text" >
+                </div>
+                <div class="left">当前身份</div>
+                <div class="center2">
+                    <input name="identity" value="1" placeholder="学生" type="radio" checked="true" >
+                </div>
+                <div class="center2">
+                    <input name="identity" value="0" placeholder="非学生" type="radio" >
+                </div>
+                <div class="left">工作时间</div>
+                <div class="center5" >
+                    <input type="date" id="r_date_begin" >
+                </div>
+                <div class="center5"  >
+                    <input type="date" id="r_date_end" >
+                </div>
+                <div class="left"></div>
+                <div class="save">
+                    <input type="submit" value="保存">
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
